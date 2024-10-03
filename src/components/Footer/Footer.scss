@@ -1,0 +1,24 @@
+.footer{
+    margin: 10vh 2vw 5vh 2vw;
+    .footFlex{
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 4vh 2vw 0vh 2vw;
+        .footTitle{
+            font-weight: 600;
+            cursor: text !important;
+            margin-bottom: 3vh;
+        }
+        .footDiv p{
+            cursor: pointer;
+        }
+        .footIcons{
+            display: flex;
+            gap: 2vw;
+            justify-content: center;
+            align-items: center;
+            cursor: pointer;
+        }
+    }
+}

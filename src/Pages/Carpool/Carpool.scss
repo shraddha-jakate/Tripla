@@ -1,0 +1,140 @@
+.carpool {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .carpoolDiv {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 7.5vh 5vw;
+        gap: 16vh;
+
+        .carone {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 5vw;
+
+            .carleft {
+                .carpgreen {
+                    font-size: 14px;
+                    color: #4BC853;
+                    font-weight: 600;
+                }
+
+                .carTitle {
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin: 0;
+                }
+
+                .carbold {
+                    font-weight: 500;
+
+                    .cargreen {
+                        color: #4BC853;
+                    }
+                }
+            }
+        }
+    }
+
+    .carText {
+        font-size: 48px;
+        width: 45vw;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .carCards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4vw;
+        justify-content: center;
+        align-items: center;
+
+        .carCard {
+            border: 1px solid #c4c4c4;
+            border-radius: 24px;
+            width: 28vw;
+            cursor: pointer;
+            transition: 0.2s ease;
+
+            &:hover {
+                border: 1px solid #4BC853;
+            }
+
+            .cartop {
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-start;
+                margin: 4vh 2vw 2vh 2vw;
+
+                .cardleft {
+                    .place {
+                        margin: 0;
+                        font-weight: 500;
+                    }
+
+                    .seat {
+                        font-size: 14px;
+                        color: #7D7D7D;
+                        font-weight: 500;
+                    }
+                }
+
+                .cardright {
+                    span {
+                        background-color: #3D3434;
+                        color: white;
+                        border-radius: 20px;
+                        padding: 7px 10px;
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .cardown {
+                margin: 2vh 2vw;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                .carDri {
+                    display: flex;
+                    align-items: center;
+                    gap: 1vw;
+                }
+            }
+        }
+    }
+
+    .whyTripla {
+        margin: 10vh 3vw;
+
+        .whyTriTitle {
+            font-weight: 600;
+            font-size: 24px;
+        }
+
+        .whyFlex {
+            display: flex;
+            gap: 2vw;
+
+            .whyDiv {
+                border: 1px solid #C4C4C4;
+                border-radius: 16px;
+                width: 24vw;
+                padding: 1vh 2vw;
+
+                .whyTitle {
+                    font-weight: 600;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}

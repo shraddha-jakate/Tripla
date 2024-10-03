@@ -1,5 +1,4 @@
 .home {
-    font-family: var(--rethink);
     .images {
         display: flex;
         position: relative;
@@ -114,7 +113,7 @@
                     .offbtn {
                         opacity: 1;
                         transform: translateY(-60px);
-                        transition-delay: 0.3s;
+                        transition-delay: 0.2s;
                         z-index: 2;
                     }
                 }
@@ -199,18 +198,216 @@
     }
     .holidayPackages{
         display: flex;
+        margin-top: 10vh;
+        background-color: #FDF5ED;
+        padding-bottom: 7vh;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         .holText{
             font-size: 48px;
-            width: 40vw;
+            width: 50vw;
             font-weight: 600;
             text-align: center;
         }
         .holidays{
             display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4vw;
+
+            .holiday {
+                border: 1px solid #C4C4C4;
+                border-radius: 24px;
+                width: 28vw;
+                .holImg {
+                    position: relative;
+                    img{
+                        width: 28vw;
+                    }
+                    .holDur {
+                        position: absolute;
+                        z-index: 2;
+                        right: 2vw;
+                        background-color: #3D3434;
+                        color: white;
+                        padding: 7px 10px;
+                        border-radius: 25px;
+                        font-size: 12px;
+                        bottom: -0.5vh;
+                    }
+                }
+
+                .holMar {
+                    margin: 2vh 2vw;
+
+                    .holPlace {
+                        font-size: 14px;
+                        color: #7D7D7D;
+                        font-weight: 600;
+                        margin-bottom: 0;
+                    }
+
+                    .holTitle {
+                        font-size: 18px;
+                        font-weight: 700;
+                        width: 24vw;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .holPoint {
+                    margin: 2vh 2vw;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+                    color: #7D7D7D;
+                    font-weight: 600;
+                }
+                .holline{
+                    margin: 4vh 2vw;
+                    width: 24vw;
+                }
+                .holPrice{
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin: 4vh 2vw;
+                    .holtrip{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #7D7D7D;
+                    }
+                }
+            }
         }
-        
+        .holBtn{
+            padding: 10px 26px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 1vw;
+            background-color: transparent;
+            border: 1px solid #062D28;
+            font-family: var(--rethink);
+            border-radius: 25px;
+            font-size: 18px;
+            cursor: pointer;
+            margin-top: 10vh;
+        }
+    }
+    .services{
+        background-color: #1C1A1F;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        gap: 20vh;
+        padding: 20vh 10vw 20vh 5vw;
+        .service{
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            .serLeft{
+                width: 40vw;
+                .serGreen{
+                    color: #4BC853;
+                    font-size: 14px;
+                }
+                .serTitle{
+                    font-size: 24px;
+                    font-weight: 600;
+                    margin-bottom: 2px;
+                }
+                .serBtn{
+                    padding: 14px 20px;
+                    margin-top: 10vh;
+                    cursor: pointer;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 1vw;
+                    background-color: transparent;
+                    font-family: var(--rethink);
+                    color: #4BC853;
+                    border: 1px solid #4BC853;
+                    border-radius: 25px;
+                }
+                .serBotm{
+                    display: flex;
+                    width: 36vw;
+                    gap: 4vw;
+                    .serBtmTitle{
+                        font-weight: 600;
+                    }
+                }
+            }
+        }
+    }
+    .tripla{
+        display: flex;
+        justify-content: center;
+        .triplaImg{
+            width: 95vw;
+        }
+    }
+    .explore{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0vw 4vw;
+        .expTag{
+            color: #4BC853;
+            font-weight: 500;
+            margin-bottom: 0;
+        }
+        .expLine{
+            font-weight: 600;
+            margin: 1vh 0vh;
+            font-size: 24px;
+        }
+        .expMat{
+            margin-top: 1vh;
+            width: 50vw;
+        }
+        .expCards{
+            margin-top: 5vh;
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: flex-start;
+            gap: 4vw;
+            .expCard{
+                display: flex;
+                width: 24vw;
+                flex-direction: column;
+                justify-content: center;
+                align-items: flex-start;
+                img{
+                    width: 24vw;
+                }
+                .expCardTitle{
+                    font-weight: 600;
+                    margin-bottom: 0;
+                }
+                .expCardLine{
+                    margin-top: 2vh;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .start{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 5vh 4vw;
+        .strTitle{
+            font-weight: 600;
+            font-size: 24px;
+            margin-bottom: 0;
+        }
     }
 }

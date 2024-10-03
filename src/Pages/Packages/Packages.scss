@@ -1,0 +1,108 @@
+.Packages {
+    .packFlex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .packTitle {
+            font-size: 48px;
+            width: 50vw;
+            font-weight: 600;
+            text-align: center;
+        }
+
+        .curPacks {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 4vw;
+
+            .curPack {
+                border: 1px solid #C4C4C4;
+                border-radius: 24px;
+                width: 28vw;
+                .curImg {
+                    position: relative;
+                    img{
+                        width: 28vw;
+                    }
+                    .curDur {
+                        position: absolute;
+                        z-index: 2;
+                        right: 2vw;
+                        background-color: #3D3434;
+                        color: white;
+                        padding: 7px 10px;
+                        border-radius: 25px;
+                        font-size: 12px;
+                        bottom: -0.5vh;
+                    }
+                }
+
+                .curMar {
+                    margin: 2vh 2vw;
+
+                    .curPlace {
+                        font-size: 14px;
+                        color: #7D7D7D;
+                        font-weight: 600;
+                        margin-bottom: 0;
+                    }
+
+                    .curTitle {
+                        font-size: 18px;
+                        font-weight: 700;
+                        width: 24vw;
+                        margin-top: 10px;
+                        margin-bottom: 10px;
+                    }
+                }
+                .curPoint {
+                    margin: 2vh 2vw;
+                    font-size: 14px;
+                    display: flex;
+                    align-items: center;
+                    gap: 24px;
+                    color: #7D7D7D;
+                    font-weight: 600;
+                }
+                .curline{
+                    margin: 4vh 2vw;
+                    width: 24vw;
+                }
+                .curPrice{
+                    font-size: 20px;
+                    font-weight: 700;
+                    margin: 4vh 2vw;
+                    .curtrip{
+                        font-size: 16px;
+                        font-weight: 400;
+                        color: #7D7D7D;
+                    }
+                }
+            }
+        }
+        .whyTripla{
+            margin: 10vh 3vw;
+            .whyTriTitle{
+                font-weight: 600;
+                font-size: 24px;
+            }
+            .whyFlex{
+                display: flex;
+                gap: 2vw;
+                .whyDiv{
+                    border: 1px solid #C4C4C4;
+                    border-radius: 16px;
+                    width: 24vw;
+                    padding: 1vh 2vw;
+                    .whyTitle{
+                        font-weight: 600;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

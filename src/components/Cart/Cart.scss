@@ -1,0 +1,30 @@
+.cart{
+    position: absolute;
+    top: 9vh;
+    border: 1px solid #c3c3c3;
+    right: 2vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4vh 2vw;
+    border-radius: 16px;
+    z-index: 2;
+    background-color: white;
+    p{
+        font-size: 14px;
+        text-align: center;
+        width: 28vw;
+    }
+    button{
+        font-family: var(--rethink);
+        padding: 10px 20px;
+        background-color: #062D28;
+        color: white;
+        font-size: 12px;
+        cursor: pointer;
+        border: none;
+        border-radius: 20px;
+    }
+
+}

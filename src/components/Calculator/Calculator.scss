@@ -1,0 +1,134 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #313131;
+    width: 70vw;
+    border-radius: 16px;
+    padding: 10vh 4vw;
+    align-items: center;
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    gap: 3vw;
+    margin-bottom: 4vh;
+
+    .button {
+        padding: 10px 20px;
+        background-color: #5F5F5F;
+        border: none;
+        color: white;
+        font-family: var(--rethink);
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1vw;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    .active-button {
+        background-color: #4BC853;
+        padding: 10px 20px;
+        color: white;
+        gap: 1vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 12px;
+        border: none;
+    }
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 50%;
+    margin-bottom: 20px;
+
+    h2 {
+        text-align: center;
+        margin-bottom: 7vh;
+    }
+
+    label {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 10px;
+
+        .flex {
+            display: flex;
+            justify-content: space-between;
+            gap: 2vw;
+        }
+    }
+
+    input,
+    select {
+        padding: 5px;
+        border-radius: 7px;
+        background-color: #5F5F5F;
+        color: white;
+        font-family: var(--rethink);
+        outline: none;
+        border: none;
+    }
+
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button{
+        -webkit-appearance: none;
+    }
+}
+
+.actions {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .calculate-button,
+    .reset-button {
+        padding: 10px 20px;
+        margin: 0 10px;
+        background-color: #4BC853;
+        font-family: var(--rethink);
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        font-weight: 500;
+    }
+
+    .reset-button {
+        background-color: #5F5F5F;
+        font-weight: 500;
+    }
+
+    .calculate-button:hover {
+        background-color: #218838;
+    }
+
+    .reset-button:hover {
+        background-color: #8b8b8b;
+    }
+}
+
+.result {
+    margin-top: 4vh;
+    border-radius: 16px;
+    width: 30vw;
+    padding: 2vh 2vw;
+    background-color: #5F5F5F;
+
+    p {
+        margin: 5px;
+    }
+
+    .resbold {
+        font-weight: 500;
+        margin-bottom: 1.5vh;
+    }
+}
