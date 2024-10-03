@@ -1,6 +1,6 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom';
-import "./menu.scss"
+import "./Menu.scss"
 import Mul from "../../assets/Multiply.svg"
 
 const Menu = ({setMenuOpen}) => {
