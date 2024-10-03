@@ -80,6 +80,7 @@
                     width: 36px;
                     height: 36px;
                     left: 24px;
+                    cursor: pointer;
                     border-radius: 50%;
                     outline: none;
                     position: absolute;
@@ -169,6 +170,7 @@
                     transition-delay: 0s;
                     opacity: 0;
                     z-index: -100;
+                    cursor: pointer;
                 }
 
                 &:hover {
@@ -221,6 +223,7 @@
                 border: 1px solid #C4C4C4;
                 border-radius: 24px;
                 width: 28vw;
+                cursor: pointer;
                 .holImg {
                     position: relative;
                     img{

@@ -15,6 +15,9 @@
         display: flex;
         justify-content: flex-end;
         margin: 3.5vh;
+        img{
+            cursor: pointer;
+        }
     }
     .bottom{
         display: flex;
@@ -29,6 +32,7 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            cursor: pointer;
             border: none;
             border-radius: 20px;
             font-size: 16px;
