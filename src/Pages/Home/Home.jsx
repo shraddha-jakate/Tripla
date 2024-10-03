@@ -11,7 +11,7 @@ import Holi2 from "../../assets/holiday2.svg"
 import Holi3 from "../../assets/holiday3.svg"
 import Tripla from "../../assets/tripla.svg"
 import CarPoolSer from "../../assets/carpoolSer.svg"
-import BikeSer from "../../assets/bikeSer.svg"
+import BikeSer from "../../assets/BikeSer.svg"
 import CarbonSer from "../../assets/carbonSer.svg"
 import Explore from "../../assets/explore.svg"
 
