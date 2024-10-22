@@ -17,7 +17,7 @@
 
 - 1️⃣ fork the repository📗 and give it a star🌟
 - 2️⃣ pull down the repository which you have forked.
-- 3️⃣ run🏃 frontend, the commands are in its particular Reactjs and Node.js.
+- 3️⃣ run🏃 frontend, the commands are in its particular Reactjs & Node.js.
 
 ----
 ### Glance of UI
